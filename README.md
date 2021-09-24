@@ -25,5 +25,5 @@ The subject for this project is a prospective homebuyer looking to live in King 
    Analysis points to Sections 1 and 2 as being the areas most postively influential in terms of price.  It is suggested homebuyers consider paying for top quality construction and construction materials as Model 4 displays a correlation between quality of work and home price.  Lastly, the model indicates that for every one 
 
 ## Next Steps
-   Further analysis could include creation of location based features, perhaps vicinity to schools or public parks, using geospatial libraries. Other next steps
+   Further analysis could include creation of location based features, perhaps vicinity to schools or public parks, using geospatial libraries. Other next steps might include incorporating additional datasets containing information on nearby employment opportunities, mass transit, etc.
    
