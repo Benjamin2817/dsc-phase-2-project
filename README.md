@@ -1,10 +1,10 @@
 # Overview
-The subject for this project is a prospective homebuyer looking to live in King County, Washington for a few years and then sell the house for a profit. The buyer is medium income, interested in purchasing a home under one million dollars, and has a budget for renovation.  Linear regression is used to best predict the price of a house and to determine each attribute's influence on the said price. Data collected on house sales in the area is read into a Jupyter notebook, cleaned, transformed, and modelled to provide an understanding  
+The subject for this project is a prospective homebuyer looking to live in King County, Washington for a few years and then sell the house for a profit. The buyer is medium income, interested in purchasing a home under one million dollars, and has a budget for renovation.  Data collected on house sales in the area is read into a Jupyter notebook, cleaned, transformed, and modelled to provide an understanding of the relationships between house features.  Linear regression is used to best predict the price of a house and to determine each attribute's influence on the said price. 
 
 ## Business Problem
 * What is the impact of living in a particular section of King County versus other sections.
 * Where is renovation money best spent?
-* What is the correlation between the sizes of properties and their selling prices?
+* What is the correlation between the living area in houses and their selling prices?
 ***
 
 ## Data
@@ -15,13 +15,15 @@ The subject for this project is a prospective homebuyer looking to live in King 
 
 ## Results
    Model 4's coefficients provide many insights into which qualities to consider when purchasing a home and what changes, if any, should be made to increase resale value.
+
 ![Model 4 Coefficients](./images/coefficients.png)
-   Grade_High_Quality and Grade_Above_Average show $254K and $97k 
-   Our bedroom coefficients suggest there is a negative impact on price when increasing the number of bedrooms.  This is counter intuitive and requires additional investigation 
+   
+   When improving the quality of construction, Grade_High_Quality and Grade_Above_Average showed $254K and $97k increases in price respectively when compared to houses of average grade.  The condition of a home is also shown to have a positive correlation to price with the highest condition having a roughly $161k impact when compared to the lowest condition.
+   Our bedroom coefficients suggest there is a negative impact on price when increasing the number of bedrooms.  This is counter intuitive and requires additional investigation. 
 
 ## Conclusions
-   It is suggested homebuyers consider paying for top quality construction and construction materials. 
+   Analysis points to Sections 1 and 2 as being the areas most postively influential in terms of price.  It is suggested homebuyers consider paying for top quality construction and construction materials as Model 4 displays a correlation between quality of work and home price.  Lastly, the model indicates that for every one 
 
 ## Next Steps
-
+   Further analysis could include creation of location based features, perhaps vicinity to schools or public parks, using geospatial libraries. Other next steps
    
